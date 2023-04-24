@@ -1,0 +1,23 @@
+{
+  "name": "country-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenLundy95/country-info.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenLundy95/country-info/issues"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  },
+  "homepage": "https://github.com/StevenLundy95/country-info#readme"
+}
