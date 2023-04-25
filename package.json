@@ -5,7 +5,8 @@
   "main": "./backend/backend.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm start",
     "build": "cd frontend && npm install && npm run build",
     "heroku-postbuild": "npm run build"
   },
