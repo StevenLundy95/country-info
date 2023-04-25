@@ -13,18 +13,13 @@ const App = () => {
         }
     }, [countryName]);
 
-    const handleSubmit = (event) => {
-        event.preventDefault(); // Prevent default form submission behavior
-        setShowCountryInfo(true); // Show Countryinfo component when form is submitted
-    };
-
     const handleChange = (event) => {
         setCountryName(event.target.value);
     };
 
     return (
         <div className="container">
-            <form className="form" onSubmit={handleSubmit}>
+            <form className="form" onSubmit={(e) => e.preventDefault()}>
                 <label htmlFor="countryName" className="label">
                     Enter Country Name:
                 </label>
@@ -35,7 +30,6 @@ const App = () => {
                     onChange={handleChange}
                     className="input"
                 />
-                <button type="submit" className="button">Submit</button> {/* Add a submit button */}
             </form>
             {showCountryInfo && (
                 // Render Countryinfo component only when showCountryInfo is true
@@ -44,5 +38,6 @@ const App = () => {
         </div>
     );
 };
+
 
 export default App;
