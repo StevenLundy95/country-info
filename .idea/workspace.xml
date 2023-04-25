@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4fd94305-2bba-48af-96f0-af22431bd306" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/CountryInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/countryinfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/CountryInfo.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/countryinfo.cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/CountryInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/countryinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
       <workItem from="1682378925514" duration="1570000" />
       <workItem from="1682380523232" duration="851000" />
       <workItem from="1682381517477" duration="3073000" />
-      <workItem from="1682385013890" duration="494000" />
+      <workItem from="1682385013890" duration="1469000" />
     </task>
     <servers />
   </component>
