@@ -8,7 +8,9 @@ app.use(express.json());
 
 // Allow requests from the frontend server
 app.use(cors());
-
+app.get("/", (req, res) => {
+    res.send("Welcome to the Country Info API!");
+});
 app.get("/country/:name", async (req, res) => {
     const { name } = req.params;
     try {
