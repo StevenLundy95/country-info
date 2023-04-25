@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import CountryInfo from "./CountryInfo"; // Import the CountryInfo component
-import "./App.css"; // Import the CSS file for styling
+import Countryinfo from "././countryinfo"; // Import the Countryinfo component
+import "./app.css"; // Import the CSS file for styling
 
 const App = () => {
     const [countryName, setCountryName] = useState("");
-    const [showCountryInfo, setShowCountryInfo] = useState(false); // Add a state to control when to show CountryInfo component
+    const [showCountryInfo, setShowCountryInfo] = useState(false); // Add a state to control when to show Countryinfo component
 
     useEffect(() => {
         // Automatically submit the form when countryName is entered
@@ -32,8 +32,8 @@ const App = () => {
                 />
             </form>
             {showCountryInfo && (
-                // Render CountryInfo component only when showCountryInfo is true
-                <CountryInfo countryName={countryName} />
+                // Render Countryinfo component only when showCountryInfo is true
+                <Countryinfo countryName={countryName} />
             )}
         </div>
     );

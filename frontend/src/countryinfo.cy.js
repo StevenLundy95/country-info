@@ -1,11 +1,11 @@
 import React from "react";
 import { mount } from "@cypress/react";
-import CountryInfo from "./CountryInfo";
+import Countryinfo from "././countryinfo";
 
-describe("CountryInfo component", () => {
+describe("Countryinfo component", () => {
     it("displays the country information correctly", () => {
         const countryName = "Canada";
-        mount(<CountryInfo countryName={countryName} />);
+        mount(<Countryinfo countryName={countryName} />);
 
         cy.contains("Loading...").should("exist"); // Check if loading spinner is displayed
 

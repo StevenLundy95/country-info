@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./CountryInfo.css"; // Import the CSS file for styling
+import "./countryinfo.css"; // Import the CSS file for styling
 
-const CountryInfo = ({ countryName }) => {
+const Countryinfo = ({ countryName }) => {
     const [countryInfo, setCountryInfo] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -95,4 +95,4 @@ const CountryInfo = ({ countryName }) => {
     );
 };
 
-export default CountryInfo;
+export default Countryinfo;
