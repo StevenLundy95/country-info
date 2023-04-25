@@ -2,8 +2,7 @@ const express = require("express");
 const axios = require("axios");
 
 const app = express();
-const PORT = process.env.PORT || 5002;
-
+const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get("/country/:name", async (req, res) => {
@@ -21,6 +20,6 @@ app.get("/country/:name", async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}.`);
 });
